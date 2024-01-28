@@ -1,5 +1,17 @@
 .home {
-	background-color: lightgrey;
+	background-color: gold;
 	font-family: Segoe UI;
 
+}
+
+input {
+	width: 90%;
+	max-width: 700px;
+	height: 30px;
+	background-color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	padding: 0 10px;
+	margin: 1px 0 5px 0px;
+	font-family: inherit;
 }
