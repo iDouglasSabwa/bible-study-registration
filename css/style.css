@@ -16,6 +16,18 @@ input,select{
 	font-family: inherit;
 }
 
+select{
+	width: 95%;
+	max-width: 720px;
+	height: 33px;
+	background-color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	padding: 0 10px;
+	margin: 1px 0 5px 0px;
+	font-family: inherit;
+}
+
 submit{
 	margin-top: 20px;
 	padding-top: 20px;
