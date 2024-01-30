@@ -4,7 +4,7 @@
 
 }
 
-input,select{
+input{
 	width: 90%;
 	max-width: 700px;
 	height: 30px;
@@ -28,7 +28,15 @@ select{
 	font-family: inherit;
 }
 
-submit{
-	margin-top: 20px;
-	padding-top: 20px;
+button{
+	
+	width: 90%;
+	max-width: 720px;
+	height: 30px;
+	background-color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	
+	margin: 10px 30px 5px 0px;
+	font-family: inherit;
 }
