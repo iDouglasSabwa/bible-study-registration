@@ -2,7 +2,8 @@
 	background-color: lightgray;
 	font-family: Segoe UI;
 	margin: auto;
-	width: 300px;
+	width: 80%;
+	max-width: 500px;
 
 }
 
