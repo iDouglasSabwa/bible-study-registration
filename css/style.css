@@ -32,11 +32,11 @@ button{
 	
 	width: 90%;
 	max-width: 720px;
-	height: 30px;
-	background-color: #ffffff;
+	height: 32px;
+	background-color: darkslateblue;
 	border: none;
 	border-radius: 5px;
-	
 	margin: 10px 30px 5px 0px;
 	font-family: inherit;
+	font-weight: bolder;
 }
