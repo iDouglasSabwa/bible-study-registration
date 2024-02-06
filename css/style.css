@@ -32,6 +32,8 @@ body {
 #contact input[type="email"],
 #contact input[type="tel"],
 #contact input[type="url"],
+#contact select,
+#contact option,
 #contact textarea,
 #contact button[type="submit"] {
   font: 400 12px/16px "Poppins", Poppins, Poppins, sans-serif;
