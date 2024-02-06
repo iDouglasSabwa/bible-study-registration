@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,600,400italic);
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: "Century Gothic", Century Gothic, Century Gothic, sans-serif;
+  font-family: "Poppins", Poppins, Poppins, sans-serif;
   font-weight: 100;
   font-size: 12px;
   line-height: 30px;
@@ -34,7 +34,7 @@ body {
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 12px/16px "Century Gothic", Century Gothic, Century Gothic, sans-serif;
+  font: 400 12px/16px "Poppins", Poppins, Poppins, sans-serif;
 }
 
 #contact {
