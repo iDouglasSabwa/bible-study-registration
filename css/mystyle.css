@@ -20,29 +20,29 @@ body{
 }
 
 .my-name{
-
+	color: #ff0000;
 }
 
 .my-html{
-	
+	color: #ffa500;	
 }
 
 .my-css{
-	
+	color: #ffff00;	
 }
 
 .my-javascript{
-	
+	color: #008000;
 }
 
 .my-php{
-	
+	color: #0000ff;
 }
 
 .my-sql{
-	
+	color: #4b0082;
 }
 
 .my-git{
-	
+	color: #ee82ee;
 }
