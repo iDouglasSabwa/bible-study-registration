@@ -16,7 +16,7 @@ body{
 .my-body{
 	text-align: center;
 	font-family: 'Trebuchet MS';
-	background-color: ghostwhite;
+	background-color: black;
 }
 
 .my-name{
@@ -40,7 +40,7 @@ body{
 }
 
 .my-sql{
-	color: #4b0082;
+	color: #ffffff;
 }
 
 .my-git{
