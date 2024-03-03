@@ -1,54 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Background with Button</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-image: url('https://images.unsplash.com/photo-1533000971552-6a962ff0b9f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Specify the path to your image */
-            background-size: cover; /* Cover the entire background with the image */
-            background-position: center; /* Center the background image */
-            height: 100vh; /* Set the height of the body to the full viewport height */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+* {
+  box-sizing: border-box;
+}
 
-        }
+.bg-image {
+  /* The image used */
+  background-image: url('https://images.unsplash.com/photo-1533000971552-6a962ff0b9f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-        .content {
-            text-align: center;
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
 
-        }
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  }
 
-        .button {
-            background-color: #4CAF50; /* Green */
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin-top: 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
+  .button:hover {
+    background-color: #45a049; /* Darker Green */
+  }
 
-        .button:hover {
-            background-color: #45a049; /* Darker Green */
-        }
-    </style>
+</style>
 </head>
 <body>
-    <div class="content">
-        <h1>Welcome to my website</h1>
-        <p>This is some sample content.</p>
-        <button class="button">Click Me</button>
-    </div>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h2>My Church/Organisation</h2>
+  <h1 style="font-size:50px">Bible Study Registration</h1>
+  <button class="button">Register Now</button>
+</div>
+
 </body>
 </html>
